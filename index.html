@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Murphy Family Assistant</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; max-width: 640px; margin: 3rem auto; padding: 0 1.5rem; line-height: 1.6; color: #222; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.15rem; margin-top: 2.5rem; }
+  footer { margin-top: 3rem; font-size: 0.85rem; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>Murphy Family Assistant</h1>
+
+<p>This is a private, personal household automation project. It is not a public product and is not available for anyone outside this family to use or sign up for.</p>
+
+<p>The assistant (built on the open-source <a href="https://github.com/NousResearch/hermes-agent">Hermes Agent</a>) runs on behalf of one family, over a private Telegram group, to help with household tasks such as:</p>
+<ul>
+  <li>Reading and answering questions about shared family Google Calendars (schedule, upcoming events, conflicts)</li>
+  <li>Creating calendar events when a family member asks it to</li>
+  <li>Reading and writing simple household notes (recipes, shopping lists, reminders) in a private family knowledge base</li>
+</ul>
+
+<h2>Privacy Policy</h2>
+
+<p>This application accesses Google Calendar data (and no other Google service) solely to provide the household automation described above, for the sole benefit of the family members who use it.</p>
+
+<ul>
+  <li><strong>What is accessed:</strong> Calendar event data (titles, times, locations, attendees) for a small number of calendars explicitly configured by the household.</li>
+  <li><strong>How it is used:</strong> Solely to answer questions about the family's schedule, surface upcoming events, and create new events when a family member requests it.</li>
+  <li><strong>Who can access it:</strong> Only the family members who operate this private instance. Calendar data is never sold, shared with advertisers, or made available to any third party.</li>
+  <li><strong>Infrastructure:</strong> The application runs on infrastructure controlled by the family (Railway) and uses Anthropic's Claude API to process requests. No calendar data is used to train any AI model.</li>
+  <li><strong>Data retention:</strong> Calendar data is not stored outside of what Google's API itself returns per request; the application does not maintain a separate calendar database.</li>
+  <li><strong>Revoking access:</strong> Access can be revoked at any time via <a href="https://myaccount.google.com/permissions">Google Account permissions</a>.</li>
+</ul>
+
+<p>Questions about this application can be directed to the household contact below.</p>
+
+<footer>
+  Murphy Family Assistant &middot; a private household project &middot; contact: rosskmurphy@gmail.com
+</footer>
+
+</body>
+</html>
